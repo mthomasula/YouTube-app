@@ -1,0 +1,26 @@
+.video-item {
+    display:  flex !important;
+    align-items: center !important;
+    cursor: pointer; 
+    background-color: rgb(255, 255, 255);
+
+} 
+
+.video-item:hover {
+    display:  flex !important;
+    align-items: center !important;
+    cursor: pointer; 
+    background-color: rgb(236, 236, 236);
+    transform: scale(1.01)
+} 
+
+
+.video-item.item img {
+    max-width: 180px;
+}
+
+
+#root {
+    background-color: rgb(245, 245, 245);
+}
+
